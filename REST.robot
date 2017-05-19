@@ -10,3 +10,4 @@ REST call
     [Tags]    force    force    STABLE
     ${stdout}    Wsb_Resource.Log To Console    WSB test
     Should Contain    ${stdout}    WSB testwiadomosc
+    

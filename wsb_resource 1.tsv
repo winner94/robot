@@ -1,0 +1,9 @@
+*Settings*							
+Library	String						
+							
+*Keywords*							
+Log To Console	[Arguments]	${message}	# log this messaged to console				
+	BuiltIn.Log To Console	${message}					
+	${random}	Generate Random String	length=3	chars=[NUMBERS]			
+	${return}	Set Variable	${message}wiadomosc				
+	[Return]	${return}					

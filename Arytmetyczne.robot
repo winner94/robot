@@ -27,3 +27,4 @@ sumowanie
     : FOR    ${wartosc}    IN    @{wartosci}
     \    ${suma}    Evaluate    ${suma} + ${wartosc}
     [Return]    ${suma}
+
